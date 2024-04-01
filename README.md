@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Monsters Roledex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Título do Projeto:
+Catálogo de Monstros
 
-## Available Scripts
+Descrição:
+O Catálogo de Monstros é um projeto que permite aos usuários visualizar uma lista de monstros e suas informações básicas. Os monstros são exibidos em cards, com seus nomes e outras informações relevantes. Os usuários podem rolar para baixo para ver mais monstros e podem interagir com a aplicação para filtrar ou buscar monstros específicos.
 
-In the project directory, you can run:
+Recursos Principais:
+Exibição de Monstros em Cards: Os monstros são exibidos em cards individuais, cada um contendo o nome do monstro e outras informações, como tipo, habilidades, etc.
 
-### `npm start`
+Rolagem Infinita: A aplicação suporta rolagem infinita para que os usuários possam ver mais monstros à medida que descem na página.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Filtragem e Busca: Os usuários têm a capacidade de filtrar os monstros com base em diferentes critérios, como tipo, raridade, etc. Além disso, eles podem buscar monstros específicos usando uma barra de busca.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Componentização com Classes em React: O projeto é construído utilizando a abordagem de classes em React para criar componentes reutilizáveis e bem estruturados.
 
-### `npm test`
+Tecnologias Utilizadas:
+React
+JavaScript (ES6+)
+HTML5
+CSS3
+API de Monstros (opcional, se houver uma API para buscar informações sobre os monstros)
+Fluxo de Funcionamento:
+Quando a aplicação é carregada, ela exibe uma lista inicial de monstros em cards.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Os usuários podem rolar para baixo para ver mais monstros. A medida que rolam, mais monstros são carregados automaticamente.
 
-### `npm run build`
+Os usuários têm a opção de filtrar os monstros com base em diferentes critérios, como tipo, raridade, etc. Eles também podem buscar monstros específicos digitando na barra de busca.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Quando os usuários clicam em um card de monstro, podem ser direcionados para uma página de detalhes do monstro, onde podem ver mais informações sobre aquele monstro específico.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Estrutura de Componentes:
+App: Componente principal que renderiza a aplicação.
+CardList: Componente que renderiza a lista de cards de monstros.
+Card: Componente que representa um card individual de monstro.
+FilterBar: Componente que exibe os controles de filtragem e busca.
+MonsterDetails: Componente que exibe detalhes completos de um monstro específico (opcional).
+Considerações Finais:
+O projeto do Catálogo de Monstros oferece uma experiência interativa aos usuários, permitindo-lhes explorar uma variedade de monstros de forma fácil e conveniente. Com a capacidade de filtrar e buscar monstros, os usuários podem encontrar rapidamente as informações que procuram. Além disso, a estrutura de componentes bem definida e a utilização de classes em React garantem que o código seja organizado, modular e de fácil manutenção.
