@@ -2,7 +2,7 @@
 Monsters Rolodex
 
 Description:
-The Monster Catalog is a project that allows users to view a list of monsters and their basic information. Monsters are displayed in cards, each containing the monster's name and other relevant details. Users can scroll down to see more monsters and can interact with the application to filter or search for specific monsters.
+The Monsters Roledex is a project that allows users to view a list of monsters and their basic information. Monsters are displayed in cards, each containing the monster's name and other relevant details. Users can scroll down to see more monsters and can interact with the application to filter or search for specific monsters.
 
 Key Features:
 Displaying Monsters in Cards: Monsters are displayed in individual cards, each containing the monster's name and other information such as type, abilities, etc.
